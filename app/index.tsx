@@ -1,7 +1,6 @@
+import { DayListItem } from '@/components/core/DayListItem'
 import { StatusBar } from 'expo-status-bar'
 import { FlatList, StyleSheet, View } from 'react-native'
-
-import { DayListItem } from '../src/components/core/DayListItem'
 
 export default function Home() {
 	return (
